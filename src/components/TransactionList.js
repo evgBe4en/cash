@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { GlobalContext } from '../context/GlobalState'
 import { Transaction } from './Transaction'
 
-export const TransactionList = () => {
+export const TransactionList = (props) => {
     const {transactions} = useContext(GlobalContext)
     
 
