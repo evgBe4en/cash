@@ -11,7 +11,7 @@ export const Balance = () => {
     return (
         <>
          <h4>Текущий баланс</h4>
-         <h1>${total}</h1>
+         <h1 id="total">₴{total}</h1>
         </>
     )
 }
